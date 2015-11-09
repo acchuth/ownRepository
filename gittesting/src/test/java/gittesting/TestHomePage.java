@@ -24,6 +24,7 @@ public class TestHomePage {
 	 }
 	 @Test
 	 public void testSample()throws Exception{
+		 System.out.println("Testcase is running");
 		 assertTrue("amazon page is not displayed", driver.findElement(By.xpath("//*[@id='nav-logo']")).isDisplayed());
 	 }
 	 @After
